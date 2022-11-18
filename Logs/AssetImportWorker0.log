@@ -1,0 +1,434 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.17134) 64bit Core' Language: 'en' Physical Memory: 32629 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Anand Kujur/Documents/GitHub/SFNT_Desktop-master
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62250
+Successfully changed project path to: C:/Users/Anand Kujur/Documents/GitHub/SFNT_Desktop-master
+C:/Users/Anand Kujur/Documents/GitHub/SFNT_Desktop-master
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Assets/FBX_safetyGear_pack/fence/source/40/040_AR.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Refreshing native plugins compatible for Editor in 98.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Anand Kujur/Documents/GitHub/SFNT_Desktop-master/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Vendor:   NVIDIA
+    VRAM:     2008 MB
+    Driver:   31.0.15.2647
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013979 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Assets/FBX_safetyGear_pack/fence/source/40/040_AR.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Refreshing native plugins compatible for Editor in 88.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.084 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1085ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (746ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (190ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (426ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (106ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010945 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.543 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1544ms)
+		BeginReloadAssembly (293ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (132ms)
+		EndReloadAssembly (1067ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (318ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (494ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (296ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Assets/FBX_safetyGear_pack/fence/source/40/040_AR.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+========================================================================
+Worker process is ready to serve import requests
+Assets/FBX_safetyGear_pack/fence/source/40/040_AR.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2036 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (57.4 KB). Loaded Objects now: 2530.
+Memory consumption went from 180.7 MB to 180.6 MB.
+Total: 5.784087 ms (FindLiveObjects: 0.346864 ms CreateObjectMapping: 0.254419 ms MarkObjects: 4.996336 ms  DeleteObjects: 0.185284 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14660.499587 seconds.
+  path: Assets/Test/hard_hat_on.png
+  artifactKey: Guid(72961b7a09de24643a62f5aab6452630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/hard_hat_on.png using Guid(72961b7a09de24643a62f5aab6452630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192a114594707069dd6eba821f64356d') in 0.221133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FBX_safetyGear_pack/MSA_Hardhat_DIF.jpg
+  artifactKey: Guid(a7b152efee21942ea8bb5183a4ec0775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX_safetyGear_pack/MSA_Hardhat_DIF.jpg using Guid(a7b152efee21942ea8bb5183a4ec0775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af705bcdb08a1c072b1fa524a21d5ad2') in 0.025971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/FBX/MaleCharacter.fbx
+  artifactKey: Guid(244493dc7d3b25a41a92ecdac595f090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/MaleCharacter.fbx using Guid(244493dc7d3b25a41a92ecdac595f090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b60f0d5b37a5aec9da365fdb792814') in 1.856351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Mixamo/Gesture Pack/hard head nod.fbx
+  artifactKey: Guid(058768f49e1666747a0c411a14ca5651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Mixamo/Gesture Pack/hard head nod.fbx using Guid(058768f49e1666747a0c411a14ca5651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7266a26925e60e652529c40222fc1c') in 0.018661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Test/hard_hat_off.png
+  artifactKey: Guid(ea6bfbc84f75e6541a56214408eae14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/hard_hat_off.png using Guid(ea6bfbc84f75e6541a56214408eae14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9083285ca10b6cc87bb4f40a97ff71e') in 0.039186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SurvivalStylizedCharacters/Assets/model_PPE_02.mb
+  artifactKey: Guid(fb15230e651f09343858d9050b0325fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalStylizedCharacters/Assets/model_PPE_02.mb using Guid(fb15230e651f09343858d9050b0325fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d671fc104a16eee98362d9f6ef07799') in 0.974396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SurvivalStylizedCharacters/Assets/model_PPE_01.mb
+  artifactKey: Guid(c68f0c21a6a76324ab87f46288047899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalStylizedCharacters/Assets/model_PPE_01.mb using Guid(c68f0c21a6a76324ab87f46288047899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ddb47840849552a7dbb5c5f09cc5419') in 0.298674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/FBX_safetyGear_pack/HardHat_B_NM_NM.jpg
+  artifactKey: Guid(ea156e5fc2fd64f6ca4fefd0aaa93668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX_safetyGear_pack/HardHat_B_NM_NM.jpg using Guid(ea156e5fc2fd64f6ca4fefd0aaa93668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8aa403bf96e2c81e942d23741a42b3') in 0.023787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Animations/In Place/Idles/Idle_HardDay.fbx
+  artifactKey: Guid(8bd9e4e04899ecc4ea8078513ef72cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated People/- Animations/In Place/Idles/Idle_HardDay.fbx using Guid(8bd9e4e04899ecc4ea8078513ef72cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452c44cd7d97a2a08127621d05421b30') in 0.016031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/FBX_safetyGear_pack/Hardhat_DIF.jpg
+  artifactKey: Guid(5a1d3b623d83e41babdba320afea580e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX_safetyGear_pack/Hardhat_DIF.jpg using Guid(5a1d3b623d83e41babdba320afea580e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ca6d6c07435e2702cc503b67affeec') in 0.014882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FBX/male.fbm/Hardhat_NM.jpg
+  artifactKey: Guid(c5820f78d25418741b0b35bc6bb1f535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/male.fbm/Hardhat_NM.jpg using Guid(c5820f78d25418741b0b35bc6bb1f535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768a78236260cce8ff9ee474f2f6dd33') in 0.017473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/test_01.mb
+  artifactKey: Guid(fa795f98e335f1142833f51e6945dda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/test_01.mb using Guid(fa795f98e335f1142833f51e6945dda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad60078444c03eb8670da3d3e2529504') in 0.339898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/FBX_safetyGear_pack/HardHat_A_NM.jpg
+  artifactKey: Guid(4b79e994cd71b42a08e76113eb95a5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX_safetyGear_pack/HardHat_A_NM.jpg using Guid(4b79e994cd71b42a08e76113eb95a5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da62cf23598bd04a67f9052936ad58f9') in 0.018484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Test/hard_hat_off.psd
+  artifactKey: Guid(9c99a95a311f753419cf1d9506efda91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/hard_hat_off.psd using Guid(9c99a95a311f753419cf1d9506efda91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6446244264bafec5709cd06480d679d7') in 0.036454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/SurvivalStylizedCharacters/Assets/test_01.mb
+  artifactKey: Guid(059abaa299888fd42bf17d840c9cf86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalStylizedCharacters/Assets/test_01.mb using Guid(059abaa299888fd42bf17d840c9cf86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65909eb6da05c1250d81dc202af04c5d') in 0.294327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FBX/male.fbm/Hardhat_DIF.jpg
+  artifactKey: Guid(262d7f23bb74f6f4790d99a101897d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/male.fbm/Hardhat_DIF.jpg using Guid(262d7f23bb74f6f4790d99a101897d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ebe53a26cef3aa6355ef21e0bb5e4a') in 0.025113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/FBX_safetyGear_pack/MSA_Hardhat_NM.jpg
+  artifactKey: Guid(3986b2dc28d8d44c5b8f0b8a1d99549b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX_safetyGear_pack/MSA_Hardhat_NM.jpg using Guid(3986b2dc28d8d44c5b8f0b8a1d99549b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05cc6a777833f7d671eb38859700d0dd') in 0.023015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FBX/MaleCharacter.fbm/Hardhat_NM.jpg
+  artifactKey: Guid(8acd43009376c424891c4c3981622d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/MaleCharacter.fbm/Hardhat_NM.jpg using Guid(8acd43009376c424891c4c3981622d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a256da29e8f69b0026d3618753c406') in 0.020097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.538098 seconds.
+  path: Assets/FBX_safetyGear_pack/boot_Oliver2_DIF.jpg
+  artifactKey: Guid(56592e4dc21994fc39b26cb8d63f9b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX_safetyGear_pack/boot_Oliver2_DIF.jpg using Guid(56592e4dc21994fc39b26cb8d63f9b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f01a0034012c050c2cc5bb7d1463b9') in 0.034403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FBX_safetyGear_pack/Hi_Vis_Vest.fbx
+  artifactKey: Guid(658a46a59c706d44b92baf416795021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX_safetyGear_pack/Hi_Vis_Vest.fbx using Guid(658a46a59c706d44b92baf416795021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f9e45689d9f5d5191572ef92a07cb7') in 0.148920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/FBX_safetyGear_pack/glove_mechanix01_DIF.jpg
+  artifactKey: Guid(0a54de3814d2a4c29a3071ecb3fa47d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX_safetyGear_pack/glove_mechanix01_DIF.jpg using Guid(0a54de3814d2a4c29a3071ecb3fa47d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393380201b7379f262dae115a0b8fd75') in 0.022817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/FBX_safetyGear_pack/glasses_NM.jpg
+  artifactKey: Guid(61a016de63170490085a2ca1c8498b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX_safetyGear_pack/glasses_NM.jpg using Guid(61a016de63170490085a2ca1c8498b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6173b9d9234363d8ab5b223ac8940c87') in 0.014151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FBX_safetyGear_pack/boot_Oliver_NM.jpg
+  artifactKey: Guid(3f4862c2b17ee41238158765855396cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX_safetyGear_pack/boot_Oliver_NM.jpg using Guid(3f4862c2b17ee41238158765855396cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56609946a5a0803ce35f3972bb3c7c5') in 0.025069 seconds 
+========================================================================
+Received Prepare
+Assets/FBX_safetyGear_pack/fence/source/40/040_AR.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Registering precompiled user dll's ...
+Registered in 0.008684 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.733 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1734ms)
+		BeginReloadAssembly (222ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1343ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (355ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (647ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (51ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (390ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2021 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (31.8 KB). Loaded Objects now: 2583.
+Memory consumption went from 197.4 MB to 197.4 MB.
+Total: 5.083644 ms (FindLiveObjects: 0.218864 ms CreateObjectMapping: 0.115358 ms MarkObjects: 4.663299 ms  DeleteObjects: 0.080987 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assets/FBX_safetyGear_pack/fence/source/40/040_AR.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Registering precompiled user dll's ...
+Registered in 0.011206 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.689 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1690ms)
+		BeginReloadAssembly (242ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1285ms)
+			LoadAssemblies (177ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (379ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (587ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (325ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2970 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (31.8 KB). Loaded Objects now: 3533.
+Memory consumption went from 225.3 MB to 225.3 MB.
+Total: 4.132733 ms (FindLiveObjects: 0.289975 ms CreateObjectMapping: 0.146568 ms MarkObjects: 3.657079 ms  DeleteObjects: 0.037531 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
