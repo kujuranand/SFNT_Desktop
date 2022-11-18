@@ -1,0 +1,206 @@
+fileFormatVersion: 2
+guid: 6f3c95043f4d48e4887b1ed27ac8bb6c
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Spine' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: safetyboots_test_01(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hips
+      parentName: safetyboots_test_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: root
+      parentName: hips
+      position: {x: -0, y: 3.0195223e-12, z: 0.009784449}
+      rotation: {x: 0.63819873, y: 0.015376898, z: 0.018540379, w: 0.76949483}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Thigh.R
+      parentName: root
+      position: {x: 0.0010876647, y: 0.00020964508, z: 0.000044205568}
+      rotation: {x: 0.993414, y: 0.019691952, z: -0.037887603, w: -0.1063271}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.9999898}
+    - name: Shin.R
+      parentName: Thigh.R
+      position: {x: -8.381903e-11, y: 0.004328948, z: -9.3132255e-12}
+      rotation: {x: 0.0046019116, y: -0.0021883997, z: -0.008080118, w: 0.9999544}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: Foot.R
+      parentName: Shin.R
+      position: {x: 4.1909514e-11, y: 0.004298467, z: 1.3969838e-11}
+      rotation: {x: 0.0016043873, y: 0.9109465, z: -0.41231558, w: 0.013031437}
+      scale: {x: 0.99999976, y: 1.0000031, z: 1.0000042}
+    - name: Toe.R
+      parentName: Foot.R
+      position: {x: -2.561137e-11, y: 0.0012416696, z: -9.3132255e-12}
+      rotation: {x: 0.31101173, y: -0.01848054, z: -0.0020003784, w: 0.9502243}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: Toe.R_end
+      parentName: Toe.R
+      position: {x: -0, y: 0.0013248271, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Thigh.L
+      parentName: root
+      position: {x: -0.0010876646, y: 0.0002096451, z: 0.000044205564}
+      rotation: {x: 0.9900293, y: -0.007927945, z: 0.0859815, w: -0.11129439}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1.0000063}
+    - name: Shin.L
+      parentName: Thigh.L
+      position: {x: -4.5401974e-11, y: 0.0043289457, z: 4.6566126e-11}
+      rotation: {x: 0.004602023, y: 0.0021884704, z: 0.008080128, w: 0.9999544}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.9999998}
+    - name: Foot.L
+      parentName: Shin.L
+      position: {x: 2.0954757e-11, y: 0.0042984677, z: 4.6566128e-12}
+      rotation: {x: -0.03736496, y: 0.90690434, z: -0.41516602, w: -0.061365012}
+      scale: {x: 0.99999976, y: 1.0000012, z: 1.0000006}
+    - name: Toe.L
+      parentName: Foot.L
+      position: {x: -1.5832484e-10, y: 0.0012416719, z: 9.313225e-11}
+      rotation: {x: 0.31101343, y: 0.018481083, z: 0.0020006737, w: 0.95022374}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: Toe.L_end
+      parentName: Toe.L
+      position: {x: -0, y: 0.0013248275, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group1
+      parentName: safetyboots_test_01(Clone)
+      position: {x: -0.85007256, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: M_Miner_Clothing
+      parentName: group1
+      position: {x: 1.5288035, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface1
+      parentName: M_Miner_Clothing
+      position: {x: -0.8175015, y: -0.06458255, z: 0.14040944}
+      rotation: {x: 0, y: 0, z: 0.013018707, w: 0.99991524}
+      scale: {x: 1.2928749, y: 1.2928749, z: 1.2928749}
+    - name: transform2
+      parentName: polySurface1
+      position: {x: 0.14244086, y: 0.04803729, z: -0.1108452}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform1
+      parentName: M_Miner_Clothing
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface2
+      parentName: M_Miner_Clothing
+      position: {x: -0.5236432, y: -0.06458255, z: 0.14040944}
+      rotation: {x: 0, y: -0, z: -0.0748159, w: 0.9971974}
+      scale: {x: -1.293, y: 1.2928749, z: 1.2928749}
+    - name: transform3
+      parentName: polySurface2
+      position: {x: 0.14244086, y: 0.04803729, z: -0.1108452}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SafetyBoots
+      parentName: safetyboots_test_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
