@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638043785163817373
-    m_Hash: 1072037275
+      ticks: 638044215245084491
+    m_Hash: 786362880
   m_LockFileStatus:
     m_FilePath: C:/Users/Anand Kujur/Documents/GitHub/SFNT_Desktop-master/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638043785497339128
-    m_Hash: 1798844709
+      ticks: 638044215325202911
+    m_Hash: 1721911020
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,12 +22,12 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/Anand Kujur/Documents/GitHub/SFNT_Desktop-master/Packages
 m_EditorVersion: 2021.3.10f1 (1c7d0df0160b)
 m_ResolvedPackages:
-- packageId: com.unity.collab-proxy@1.14.13
+- packageId: com.unity.collab-proxy@1.17.2
   testable: 0
   isDirectDependency: 1
-  version: 1.14.13
+  version: 1.17.2
   source: 1
-  resolvedPath: C:\Users\Anand Kujur\Documents\GitHub\SFNT_Desktop-master\Library\PackageCache\com.unity.collab-proxy@1.14.13
+  resolvedPath: C:\Users\Anand Kujur\Documents\GitHub\SFNT_Desktop-master\Library\PackageCache\com.unity.collab-proxy@1.17.2
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -35,7 +35,7 @@ m_ResolvedPackages:
     name: 
     email: 
     url: 
-  category: 
+  category: Editor
   type: asset
   description: The Version Control package gives you the ability to use either Collaborate
     or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic SCM for Unity
@@ -122,8 +122,18 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     verified: 1.17.7
-  dependencies: []
-  resolvedDependencies: []
+  dependencies:
+  - name: com.unity.services.core
+    version: 1.0.1
+  resolvedDependencies:
+  - name: com.unity.services.core
+    version: 1.4.2
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.0.2
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
   keywords:
   - backup
   - cloud
@@ -147,13 +157,13 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637807003150000000
+  datePublishedTicks: 637937432480000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.collab-proxy.git
-    revision: 6ab76bbe03ceb4851561890d469b996ea02fc621
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
+    revision: 14d129dcc778f8ea2fdf9d0240b47924e4f0dbb1
     path: 
   unityLifecycle:
     version: 1.17.2
@@ -256,12 +266,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 4.1.2
     nextVersion: 
-- packageId: com.unity.ide.rider@1.2.1
+- packageId: com.unity.ide.rider@3.0.15
   testable: 0
   isDirectDependency: 1
-  version: 1.2.1
+  version: 3.0.15
   source: 1
-  resolvedPath: C:\Users\Anand Kujur\Documents\GitHub\SFNT_Desktop-master\Library\PackageCache\com.unity.ide.rider@1.2.1
+  resolvedPath: C:\Users\Anand Kujur\Documents\GitHub\SFNT_Desktop-master\Library\PackageCache\com.unity.ide.rider@3.0.15
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -271,9 +281,9 @@ m_ResolvedPackages:
     url: 
   category: 
   type: asset
-  description: Code editor integration for supporting JetBrains Rider as code editor
-    for unity. Adds support for generating csproj files for code completion, auto
-    discovery of installations, etc.
+  description: The JetBrains Rider Editor package provides an integration for using
+    the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
+    .csproj files for code completion and auto-discovery of installations.
   status: 4
   errors: []
   versions:
@@ -315,17 +325,11 @@ m_ResolvedPackages:
     - 3.0.16
     verified: 3.0.16
   dependencies:
-  - name: com.unity.test-framework
-    version: 1.1.1
-  resolvedDependencies:
-  - name: com.unity.test-framework
-    version: 1.1.31
   - name: com.unity.ext.nunit
     version: 1.0.6
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ext.nunit
+    version: 1.0.6
   keywords: []
   registry:
     id: main
@@ -336,23 +340,23 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637123753810000000
+  datePublishedTicks: 637914298700000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: git@github.cds.internal.unity3d.com:unity/com.unity.ide.rider.git
-    revision: 009bcadf1eb16d9bbf3d00bcf6ccdde2162ce0cb
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
+    revision: b61ff0378932fdf03b5891e09c91728337de674c
     path: 
   unityLifecycle:
     version: 3.0.15
     nextVersion: 
-- packageId: com.unity.ide.visualstudio@2.0.14
+- packageId: com.unity.ide.visualstudio@2.0.16
   testable: 0
   isDirectDependency: 1
-  version: 2.0.14
+  version: 2.0.16
   source: 1
-  resolvedPath: C:\Users\Anand Kujur\Documents\GitHub\SFNT_Desktop-master\Library\PackageCache\com.unity.ide.visualstudio@2.0.14
+  resolvedPath: C:\Users\Anand Kujur\Documents\GitHub\SFNT_Desktop-master\Library\PackageCache\com.unity.ide.visualstudio@2.0.16
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -413,13 +417,13 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637782923640000000
+  datePublishedTicks: 637914298680000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: f1e8af5df9e2507088a8622d173c9a7d5a03a882
+    revision: c01855ef6461b821ab0226135e96a4ee86de96be
     path: 
   unityLifecycle:
     version: 2.0.16
@@ -590,12 +594,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.1.31
     nextVersion: 
-- packageId: com.unity.textmeshpro@2.1.6
+- packageId: com.unity.textmeshpro@3.0.6
   testable: 0
   isDirectDependency: 1
-  version: 2.1.6
+  version: 3.0.6
   source: 1
-  resolvedPath: C:\Users\Anand Kujur\Documents\GitHub\SFNT_Desktop-master\Library\PackageCache\com.unity.textmeshpro@2.1.6
+  resolvedPath: C:\Users\Anand Kujur\Documents\GitHub\SFNT_Desktop-master\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -744,13 +748,13 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637547110560000000
+  datePublishedTicks: 637547111200000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-    revision: 529e8925f4873e5db1e13a4120e235971b264480
+    revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
     path: 
   unityLifecycle:
     version: 3.0.6
@@ -2838,4 +2842,154 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 4.1.1
+    nextVersion: 
+- packageId: com.unity.services.core@1.4.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.4.2
+  source: 1
+  resolvedPath: C:\Users\Anand Kujur\Documents\GitHub\SFNT_Desktop-master\Library\PackageCache\com.unity.services.core@1.4.2
+  assetPath: Packages/com.unity.services.core
+  name: com.unity.services.core
+  displayName: Services Core
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: 'This package defines common components used by multiple Game Service
+    packages.
+
+    These are standardized and aim to unify the overall experience
+    of working with Game Services SDK.'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.1
+    - 1.1.0-pre.7
+    - 1.1.0-pre.8
+    - 1.1.0-pre.9
+    - 1.1.0-pre.10
+    - 1.1.0-pre.11
+    - 1.1.0-pre.41
+    - 1.1.0-pre.69
+    - 1.2.0
+    - 1.3.1
+    - 1.3.2
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.5.2
+    - 1.6.0
+    compatible:
+    - 1.4.2
+    - 1.4.3
+    - 1.5.2
+    - 1.6.0
+    verified: 1.4.3
+  dependencies:
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.0.2
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.0.2
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 637919618520000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
+    revision: 3964d1641ebec474aa425853985bccbdb89c2a49
+    path: 
+  unityLifecycle:
+    version: 1.4.2
+    nextVersion: 
+- packageId: com.unity.nuget.newtonsoft-json@3.0.2
+  testable: 0
+  isDirectDependency: 0
+  version: 3.0.2
+  source: 1
+  resolvedPath: C:\Users\Anand Kujur\Documents\GitHub\SFNT_Desktop-master\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2
+  assetPath: Packages/com.unity.nuget.newtonsoft-json
+  name: com.unity.nuget.newtonsoft-json
+  displayName: Newtonsoft Json
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: library
+  description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
+    synced to version 13.0.1.
+
+
+    This package is used for advanced json serialization
+    and deserialization. Most Unity users will be better suited using the existing
+    json tools built into Unity.
+
+    To avoid assembly clashes, please use this
+    package if you intend to use Newtonsoft Json.'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.1-preview.1
+    - 1.1.2
+    - 2.0.0-preview
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.2
+    - 3.0.1
+    - 3.0.2
+    compatible:
+    - 3.0.2
+    verified: 3.0.2
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637846828220000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+    revision: 8f66870a71ad3f2cdd46330b5c482dfd138ffc64
+    path: 
+  unityLifecycle:
+    version: 3.0.2
     nextVersion: 
